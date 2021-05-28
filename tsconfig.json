@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "lib": [
+      "es2018",
+      "esnext"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "rootDir": ".",
+	"outDir": "./dist",
+    "strict": true,
+    "target": "es2019",
+  },
+  "exclude": [
+	"node_modules"
+  ]
+}
